@@ -1,0 +1,146 @@
+.container {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.content {
+  max-width: 757px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: #bdbdbd;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 76px;
+  font-weight: bold;
+  color: #ff4081;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: #c7c7c7;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #bdbdbd;
+  margin: 15px auto;
+  max-width: 453px;
+  width: 100%;
+  text-align: center;
+}
+
+.footersection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* max-width: 757px; */
+  padding: 20px;
+  margin-top: 130px;
+  left: 20px;
+  right: 20px;
+  position: relative;
+}
+
+.year {
+  font-size: 16px;
+  color: #bdbdbd;
+  
+}
+
+.mouse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4F4F4F;
+}
+
+.text {
+  display: inline-block;
+  font-size: 16px;
+  color: #bdbdbd;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 400px;
+  }
+
+  .footersection {
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 300px;
+    left: 15px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 15px;
+    max-width: 320px;
+  }
+  .footersection {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 10px;
+    margin-top: 150px;
+  }
+
+  .year,
+  .text {
+    font-size: 14px;
+  }
+  
+  .mouse {
+    display: flex;
+    justify-content: center;
+  }
+
+}

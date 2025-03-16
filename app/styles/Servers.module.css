@@ -1,0 +1,95 @@
+.containerservers {
+  padding: 4rem 2rem;
+  color: #c7c7c7;
+  margin-left: 40px;
+}
+
+.headerservers {
+  text-align: center;
+  color: white;
+}
+
+.subtitleservers {
+  margin-left: 560px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
+.titleservers {
+  font-size: 64px;
+  color: #dad2d2;
+}
+
+.servers {
+  display: flex;
+  gap: 1rem;
+  margin-top: 100px; 
+}
+
+.serversCard {
+  flex: 1;
+  border: 1px solid;
+  border-radius: 37px;
+  font-size: 24px;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.serversCard:hover{
+  background-color: #43DFEF;
+  color: #282828;
+}
+
+.serversCard .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.serversCard .title {
+  margin-top: 50px; 
+  margin-bottom: 25px; 
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+  .subtitleservers {
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .titleservers {
+    font-size: 32px;
+  }
+
+  .servers {
+    flex-direction: column;
+  }
+
+  .serversCard { 
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .subtitleservers {
+    margin-left: auto;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .titleservers {
+    font-size: 22px;
+  }
+
+  .servers {
+    flex-direction: column;
+  }
+
+  .serversCard { 
+    width: 100%;
+  }
+}

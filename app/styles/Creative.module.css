@@ -1,0 +1,66 @@
+.creativecontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 40px;
+}
+
+.alltext {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 96px;
+  letter-spacing: 1px;
+}
+
+.textgray {
+  color: #282828;
+  animation: fadeIn 1s ease-in;
+}
+
+.textwhite {
+  color: #C7C7C7;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.vector {
+  width:17px;
+  height: 29px;
+  color: #333333;
+  font-size: 40px;
+  display: inline-block;
+}
+
+@media (max-width: 992px) {
+  .textgray, .textwhite {
+    font-size: 42px;
+  }
+  
+  .alltext {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .textgray, .textwhite {
+    font-size: 36px;
+  }
+  
+  .alltext {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+.alltext {
+    gap: 12px;
+    text-align: center;
+  }
+  
+  .textgray, .textwhite {
+    font-size: 32px;
+  }
+  
+}

@@ -1,0 +1,10 @@
+.errorcontainer{
+  height: 100vh;
+  flex-direction: column;
+}
+
+.error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

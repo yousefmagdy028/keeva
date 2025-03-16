@@ -1,0 +1,76 @@
+.footer {
+  width: 100%;
+  display: block;
+  left: 0;
+  bottom: 0;
+  padding: 16px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.footercontent {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.followtext {
+  color: #4F4F4F;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.sociallinks{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sociallinks{
+  font-size: 40px;
+  color: #282828;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.facebook:hover{
+  border-bottom: 2px solid #5563E8;
+}
+.instagram:hover{
+  border-bottom: 2px solid #5563E8;
+}
+.linkedin:hover{
+  border-bottom: 2px solid #5563E8;
+}
+
+
+.contacttitle {
+  color: #4F4F4F;
+  margin-bottom: 1rem;
+}
+
+.contactinfo {
+  display: flex;
+  gap: 2rem;
+  color: #4F4F4F;
+}
+
+.copyright{
+  text-align: right;
+  margin-right: 50px;
+  color: #4F4F4F;
+  
+}
+
+@media (max-width: 768px) {
+  .sociallinks {
+    gap: 1rem;
+    font-size: 24px;
+  }
+  
+  .contactinfo {
+    gap: 0.5rem;
+  }
+  .copyright{
+    text-align: left;
+    margin-top: 20px;
+  }
+}
